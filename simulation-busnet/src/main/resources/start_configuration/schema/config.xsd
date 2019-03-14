@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="configuration" type="network-config" />
+
+	<xs:complexType name="network-config">
+		<xs:sequence>
+			<xs:element name="buses-capacity" type="xs:int" />
+			<xs:element name="buses-speed" type="speed-type" />
+			<xs:element name="buses-count-per-route" type="xs:int" />
+			<xs:element name="simulation-start-time" type="time"
+				minOccurs="0" />
+			<xs:element name="simulation-end-time" type="time"
+				minOccurs="0" />
+			<xs:element name="time-acceleration-coeff"
+				type="xs:double" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="speed-type">
+		<xs:restriction base="xs:double">
+			<xs:minInclusive value="20.0" />
+			<xs:maxInclusive value="60.0" />
+	</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="time">
+		<xs:sequence>
+			<xs:element name="year" type="xs:int" />
+			<xs:element name="month" type="xs:int" />
+			<xs:element name="day" type="xs:int" />
+			<xs:element name="hours" type="xs:int" />
+			<xs:element name="minutes" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

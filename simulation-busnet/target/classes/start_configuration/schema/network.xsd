@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="busRoute" type="bus-route"/>
+
+  <xs:element name="busStop" type="bus-stop"/>
+
+  <xs:element name="network" type="bus-network"/>
+
+  <xs:complexType name="bus-network">
+    <xs:sequence>
+      <xs:element name="bus-route" type="bus-route" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="bus-route">
+    <xs:sequence>
+      <xs:element name="bus-route-number" type="xs:int"/>
+      <xs:element name="busStops">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="entry" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="key" minOccurs="0" type="direction"/>
+                  <xs:element name="value" minOccurs="0" type="listWrapper"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="price" type="xs:double" use="required"/>
+    <xs:attribute name="isRoundabout" type="xs:boolean" use="required"/>
+    <xs:attribute name="timeInterval" type="xs:long" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="listWrapper">
+    <xs:sequence>
+      <xs:element name="bus-stop" type="bus-stop" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="bus-stop" final="extension restriction">
+    <xs:sequence>
+      <xs:element name="bus-stop-name" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="idBusStop" type="xs:int" use="required"/>
+    <xs:attribute name="park-space-cnt" type="xs:int" default="3"/>
+    <xs:attribute name="x-coord" type="xs:double" use="required"/>
+    <xs:attribute name="y-coord" type="xs:double" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="direction">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="FROM"/>
+      <xs:enumeration value="INTO"/>
+      <xs:enumeration value="PERMANENT"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+

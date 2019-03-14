@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<network>
+	<bus-route price="6" isRoundabout="true" timeInterval="12">
+		<bus-route-number>270</bus-route-number>
+		<busStops>
+			<entry>
+				<key>PERMANENT</key>
+				<value>
+					<bus-stop idBusStop="1" park-space-cnt="5"
+						x-coord="49.952078" y-coord="36.139046">
+						<bus-stop-name>Dziuba Avenue</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="2" park-space-cnt="5"
+						x-coord="49.950923" y-coord="36.148539">
+						<bus-stop-name>Dargomyzhsky</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="3" park-space-cnt="5"
+						x-coord="49.950826" y-coord="36.158195">
+						<bus-stop-name>Shulzhenko</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="4" x-coord="49.959137"
+						y-coord="36.176519">
+						<bus-stop-name>Grigorovka</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="5" x-coord="49.965846"
+						y-coord="36.186111">
+						<bus-stop-name>Grushevskogo</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="7" isRoundabout="false" timeInterval="10">
+		<bus-route-number>271</bus-route-number>
+		<busStops>
+			<entry>
+				<key>FROM</key>
+				<value>
+					<bus-stop idBusStop="1" park-space-cnt="5"
+						x-coord="49.952078" y-coord="36.139046">
+						<bus-stop-name>Dziuba Avenue</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="2" park-space-cnt="5"
+						x-coord="49.950923" y-coord="36.148539">
+						<bus-stop-name>Dargomyzhsky</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="3" park-space-cnt="5"
+						x-coord="49.950826" y-coord="36.158195">
+						<bus-stop-name>Shulzhenko</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="4" x-coord="49.959137"
+						y-coord="36.176519">
+						<bus-stop-name>Grigorovka</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="5" x-coord="49.965846"
+						y-coord="36.186111">
+						<bus-stop-name>Grushevskogo</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="6" x-coord="49.970787"
+						y-coord="36.192334">
+						<bus-stop-name>Prospect Lyubov Malaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="7" x-coord="49.975107"
+						y-coord="36.189973">
+						<bus-stop-name>Tsekhovskaya</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+			<entry>
+				<key>INTO</key>
+				<value>
+					<bus-stop idBusStop="8" x-coord="49.975105"
+						y-coord="36.189971">
+						<bus-stop-name>Tsekhovskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="9" x-coord="49.970785"
+						y-coord="36.192332">
+						<bus-stop-name>Prospect Lyubov Malaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="10" x-coord="49.965844"
+						y-coord="36.186110">
+						<bus-stop-name>Grushevskogo</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="11" x-coord="49.959135"
+						y-coord="36.176517">
+						<bus-stop-name>Grigorovka</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="12" x-coord="49.950824"
+						y-coord="36.158193">
+						<bus-stop-name>Shulzhenko</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="13" x-coord="49.950921"
+						y-coord="36.148537">
+						<bus-stop-name>Dargomyzhsky</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="14" x-coord="49.952076"
+						y-coord="36.139044">
+						<bus-stop-name>Dziuba Avenue</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="5" isRoundabout="true" timeInterval="5">
+		<bus-route-number>272</bus-route-number>
+		<busStops>
+			<entry>
+				<key>PERMANENT</key>
+				<value>
+					<bus-stop idBusStop="8" x-coord="49.975105"
+						y-coord="36.189971">
+						<bus-stop-name>Tsekhovskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="9" x-coord="49.970785"
+						y-coord="36.192332">
+						<bus-stop-name>Prospect Lyubov Malaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="11" x-coord="49.959135"
+						y-coord="36.176517">
+						<bus-stop-name>Grigorovka</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="12" x-coord="49.950824"
+						y-coord="36.158193">
+						<bus-stop-name>Shulzhenko</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="14" x-coord="49.952076"
+						y-coord="36.139044">
+						<bus-stop-name>Dziuba Avenue</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="8" isRoundabout="false" timeInterval="12">
+		<bus-route-number>10</bus-route-number>
+		<busStops>
+			<entry>
+				<key>FROM</key>
+				<value>
+					<bus-stop idBusStop="21" park-space-cnt="3"
+						x-coord="50.028021" y-coord="36.311617">
+						<bus-stop-name>Sosnovyy bor</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="22" park-space-cnt="5"
+						x-coord="49.984154" y-coord="36.335521">
+						<bus-stop-name>Metro Geroyev Truda</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="23" park-space-cnt="5"
+						x-coord="50.013103" y-coord="36.355262">
+						<bus-stop-name>Vladimirskaya tserkov'</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="24" x-coord="50.010207"
+						y-coord="36.350799">
+						<bus-stop-name>Valentinovskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="25" x-coord="49.993133"
+						y-coord="36.342387">
+						<bus-stop-name>Park Pobedy</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+			<entry>
+				<key>INTO</key>
+				<value>
+					<bus-stop idBusStop="26" x-coord="49.993133"
+						y-coord="36.342385">
+						<bus-stop-name>Park Pobedy</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="27" x-coord="50.010207"
+						y-coord="36.350797">
+						<bus-stop-name>Valentinovskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="28" park-space-cnt="5"
+						x-coord="50.013103" y-coord="36.355260">
+						<bus-stop-name>Vladimirskaya tserkov'</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="29" park-space-cnt="4"
+						x-coord="50.028021" y-coord="36.311615">
+						<bus-stop-name>Sosnovyy bor</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="5" isRoundabout="true" timeInterval="5">
+		<bus-route-number>12</bus-route-number>
+		<busStops>
+			<entry>
+				<key>PERMANENT</key>
+				<value>
+					<bus-stop idBusStop="21" park-space-cnt="3"
+						x-coord="50.028021" y-coord="36.311617">
+						<bus-stop-name>Sosnovyy bor</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="22" park-space-cnt="5"
+						x-coord="49.984154" y-coord="36.335521">
+						<bus-stop-name>Metro Geroyev Truda</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="23" park-space-cnt="5"
+						x-coord="50.013103" y-coord="36.355262">
+						<bus-stop-name>Vladimirskaya tserkov'</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="24" x-coord="50.010207"
+						y-coord="36.350799">
+						<bus-stop-name>Valentinovskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="25" x-coord="49.993133"
+						y-coord="36.342387">
+						<bus-stop-name>Park Pobedy</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="6" isRoundabout="false" timeInterval="15">
+		<bus-route-number>77</bus-route-number>
+		<busStops>
+			<entry>
+				<key>FROM</key>
+				<value>
+					<bus-stop idBusStop="35" park-space-cnt="6"
+						x-coord="49.987228" y-coord="36.296639">
+						<bus-stop-name>Khalturina</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="36" park-space-cnt="4"
+						x-coord="49.985766" y-coord="36.314664">
+						<bus-stop-name>Kaunasskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="37" park-space-cnt="5"
+						x-coord="49.985628" y-coord="36.328783">
+						<bus-stop-name>Matroninskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="38" x-coord="49.989049"
+						y-coord="36.352129">
+						<bus-stop-name>Ruslana Plokhod'ko</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+			<entry>
+				<key>INTO</key>
+				<value>
+					<bus-stop idBusStop="41" x-coord="49.989049"
+						y-coord="36.352127">
+						<bus-stop-name>Ruslana Plokhod'ko</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="42" park-space-cnt="5"
+						x-coord="49.985628" y-coord="36.328781">
+						<bus-stop-name>Matroninskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="43" park-space-cnt="4"
+						x-coord="49.985766" y-coord="36.314661">
+						<bus-stop-name>Kaunasskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="44" park-space-cnt="6"
+						x-coord="49.987228" y-coord="36.296637">
+						<bus-stop-name>Khalturina</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="10" isRoundabout="false" timeInterval="6">
+		<bus-route-number>79</bus-route-number>
+		<busStops>
+			<entry>
+				<key>FROM</key>
+				<value>
+					<bus-stop idBusStop="50" park-space-cnt="4"
+						x-coord="49.94803" y-coord="36.280546">
+						<bus-stop-name>Kirgizskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="51" park-space-cnt="3"
+						x-coord="49.951068" y-coord="36.280975">
+						<bus-stop-name>Matrosova</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="52" park-space-cnt="3"
+						x-coord="49.959241" y-coord="36.283851">
+						<bus-stop-name>Mukhacheva</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="53" park-space-cnt="4"
+						x-coord="49.971222" y-coord="36.294065">
+						<bus-stop-name>Park Mashinostroiteley</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="54" park-space-cnt="4"
+						x-coord="49.976521" y-coord="36.270204">
+						<bus-stop-name>Polevaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="55" park-space-cnt="5"
+						x-coord="49.98182" y-coord="36.269259">
+						<bus-stop-name>Metro Sportivnaya</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+			<entry>
+				<key>INTO</key>
+				<value>
+					<bus-stop idBusStop="56" park-space-cnt="5"
+						x-coord="49.98180" y-coord="36.269257">
+						<bus-stop-name>Metro Sportivnaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="57" park-space-cnt="4"
+						x-coord="49.976519" y-coord="36.270202">
+						<bus-stop-name>Polevaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="58" park-space-cnt="4"
+						x-coord="49.971220" y-coord="36.294063">
+						<bus-stop-name>Park Mashinostroiteley</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="59" park-space-cnt="3"
+						x-coord="49.959239" y-coord="36.283849">
+						<bus-stop-name>Mukhacheva</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="60" park-space-cnt="3"
+						x-coord="49.951065" y-coord="36.280973">
+						<bus-stop-name>Matrosova</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="61" park-space-cnt="4"
+						x-coord="49.94801" y-coord="36.280544">
+						<bus-stop-name>Kirgizskaya</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="5" isRoundabout="true" timeInterval="7">
+		<bus-route-number>78</bus-route-number>
+		<busStops>
+			<entry>
+				<key>PERMANENT</key>
+				<value>
+					<bus-stop idBusStop="56" park-space-cnt="5"
+						x-coord="49.98180" y-coord="36.269257">
+						<bus-stop-name>Metro Sportivnaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="57" park-space-cnt="4"
+						x-coord="49.976519" y-coord="36.270202">
+						<bus-stop-name>Polevaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="58" park-space-cnt="4"
+						x-coord="49.971220" y-coord="36.294063">
+						<bus-stop-name>Park Mashinostroiteley</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="59" park-space-cnt="3"
+						x-coord="49.959239" y-coord="36.283849">
+						<bus-stop-name>Mukhacheva</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="60" park-space-cnt="3"
+						x-coord="49.951065" y-coord="36.280973">
+						<bus-stop-name>Matrosova</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="61" park-space-cnt="4"
+						x-coord="49.94801" y-coord="36.280544">
+						<bus-stop-name>Kirgizskaya</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="13" isRoundabout="false" timeInterval="17">
+		<bus-route-number>605</bus-route-number>
+		<busStops>
+			<entry>
+				<key>FROM</key>
+				<value>
+					<bus-stop idBusStop="70" park-space-cnt="5"
+						x-coord="49.912732" y-coord="36.192977">
+						<bus-stop-name>Karachevka</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="71" park-space-cnt="4"
+						x-coord="49.912753" y-coord="36.203384">
+						<bus-stop-name>Starshinskiy v"yezd</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="72" park-space-cnt="4"
+						x-coord="49.910487" y-coord="36.228189">
+						<bus-stop-name>Lenkoranskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="73" park-space-cnt="3"
+						x-coord="49.915599" y-coord="36.26338">
+						<bus-stop-name>Merefyanskoye shosse</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="74" park-space-cnt="3"
+						x-coord="49.924745" y-coord="36.270332">
+						<bus-stop-name>Sokhora</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="75" park-space-cnt="3"
+						x-coord="49.937204" y-coord="36.26338">
+						<bus-stop-name>L'govskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="76" park-space-cnt="5"
+						x-coord="49.960152" y-coord="36.261063">
+						<bus-stop-name>Sidorenkovskaya</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+			<entry>
+				<key>INTO</key>
+				<value>
+					<bus-stop idBusStop="77" park-space-cnt="5"
+						x-coord="49.960152" y-coord="36.261061">
+						<bus-stop-name>Sidorenkovskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="78" park-space-cnt="3"
+						x-coord="49.937204" y-coord="36.26336">
+						<bus-stop-name>L'govskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="79" park-space-cnt="3"
+						x-coord="49.924745" y-coord="36.270330">
+						<bus-stop-name>Sokhora</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="80" park-space-cnt="3"
+						x-coord="49.915599" y-coord="36.26336">
+						<bus-stop-name>Merefyanskoye shosse</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="81" park-space-cnt="4"
+						x-coord="49.910487" y-coord="36.228187">
+						<bus-stop-name>Lenkoranskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="82" park-space-cnt="4"
+						x-coord="49.912753" y-coord="36.203382">
+						<bus-stop-name>Starshinskiy v"yezd</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="70" park-space-cnt="5"
+						x-coord="49.912732" y-coord="36.192975">
+						<bus-stop-name>Karachevka</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="7" isRoundabout="true" timeInterval="7">
+		<bus-route-number>606</bus-route-number>
+		<busStops>
+			<entry>
+				<key>PERMANENT</key>
+				<value>
+					<bus-stop idBusStop="79" park-space-cnt="3"
+						x-coord="49.924745" y-coord="36.270330">
+						<bus-stop-name>Sokhora</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="80" park-space-cnt="3"
+						x-coord="49.915599" y-coord="36.26336">
+						<bus-stop-name>Merefyanskoye shosse</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="81" park-space-cnt="4"
+						x-coord="49.910487" y-coord="36.228187">
+						<bus-stop-name>Lenkoranskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="82" park-space-cnt="4"
+						x-coord="49.912753" y-coord="36.203382">
+						<bus-stop-name>Starshinskiy v"yezd</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="70" park-space-cnt="5"
+						x-coord="49.912732" y-coord="36.192975">
+						<bus-stop-name>Karachevka</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+	<bus-route price="7" isRoundabout="true" timeInterval="8">
+		<bus-route-number>607</bus-route-number>
+		<busStops>
+			<entry>
+				<key>PERMANENT</key>
+				<value>
+					<bus-stop idBusStop="71" park-space-cnt="4"
+						x-coord="49.912753" y-coord="36.203384">
+						<bus-stop-name>Starshinskiy v"yezd</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="72" park-space-cnt="4"
+						x-coord="49.910487" y-coord="36.228189">
+						<bus-stop-name>Lenkoranskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="73" park-space-cnt="3"
+						x-coord="49.915599" y-coord="36.26338">
+						<bus-stop-name>Merefyanskoye shosse</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="74" park-space-cnt="3"
+						x-coord="49.924745" y-coord="36.270332">
+						<bus-stop-name>Sokhora</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="75" park-space-cnt="3"
+						x-coord="49.937204" y-coord="36.26338">
+						<bus-stop-name>L'govskaya</bus-stop-name>
+					</bus-stop>
+					<bus-stop idBusStop="76" park-space-cnt="5"
+						x-coord="49.960152" y-coord="36.261063">
+						<bus-stop-name>Sidorenkovskaya</bus-stop-name>
+					</bus-stop>
+				</value>
+			</entry>
+		</busStops>
+	</bus-route>
+</network>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="schema/config.xsd">
+	<buses-capacity>40</buses-capacity>
+	<buses-speed>45.0</buses-speed>
+	<buses-count-per-route>15</buses-count-per-route>
+	<simulation-start-time>
+		<year>2019</year>
+		<month>3</month>
+		<day>1</day>
+		<hours>7</hours>
+		<minutes>30</minutes>
+	</simulation-start-time>
+	<simulation-end-time>
+		<year>2019</year>
+		<month>3</month>
+		<day>3</day>
+		<hours>9</hours>
+		<minutes>50</minutes>
+	</simulation-end-time>
+	<time-acceleration-coeff>30000.0</time-acceleration-coeff>
+</configuration>

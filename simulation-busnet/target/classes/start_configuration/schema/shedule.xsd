@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="record" type="bus-shedule-record" />
+
+	<xs:element name="shedule" type="bus-shedule" />
+
+	<xs:complexType name="bus-shedule">
+		<xs:sequence>
+			<xs:element name="bus-shedule-record"
+				type="bus-shedule-record" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="bus-shedule-record">
+		<xs:sequence>
+			<xs:element name="bus-route-number" type="xs:int" />
+			<xs:element name="direction" type="direction"
+				minOccurs="0" />
+			<xs:element name="start-time" type="time" minOccurs="0" />
+			<xs:element name="end-time" type="time" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="time">
+		<xs:sequence>
+			<xs:element name="day" type="xs:int" minOccurs="0" />
+			<xs:element name="hours" type="xs:int" />
+			<xs:element name="minutes" type="xs:int" />
+			<xs:element name="month" type="xs:int" minOccurs="0" />
+			<xs:element name="weekday" type="xs:string" minOccurs="0" />
+			<xs:element name="year" type="xs:int" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="direction">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FROM" />
+			<xs:enumeration value="INTO" />
+			<xs:enumeration value="PERMANENT" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
+

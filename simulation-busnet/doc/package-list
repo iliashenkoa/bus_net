@@ -1,0 +1,10 @@
+com.iliashenko
+com.iliashenko.db
+com.iliashenko.db.dao
+com.iliashenko.db.dao.interfaces
+com.iliashenko.exceptions
+com.iliashenko.generation
+com.iliashenko.observer
+com.iliashenko.simulation
+com.iliashenko.simulation.statistics
+com.iliashenko.utils
