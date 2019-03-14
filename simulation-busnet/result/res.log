@@ -34557,3 +34557,6 @@ Caused by: java.lang.NullPointerException
 2019-03-14 18:19:32,713 INFO  Timer:  2019-3-1 8:7
 2019-03-14 18:19:32,854 INFO  Bus:  Bus #100 finished trip on route #79
 2019-03-14 18:19:32,855 INFO  Bus:  Bus #36 finished trip on route #272
+2019-03-14 18:39:20,571 INFO  XmlWebApplicationContext:  Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Mar 14 16:21:04 EET 2019]; parent: Root WebApplicationContext
+2019-03-14 18:39:21,193 INFO  XmlWebApplicationContext:  Closing Root WebApplicationContext: startup date [Thu Mar 14 16:20:50 EET 2019]; root of context hierarchy
+2019-03-14 18:39:21,809 INFO  LocalContainerEntityManagerFactoryBean:  Closing JPA EntityManagerFactory for persistence unit 'default'
